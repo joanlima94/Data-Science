@@ -55,7 +55,7 @@ hover.tooltips = {
     "setor": "@setores",
     "Dividendo":"@Dividendo",
     "Preço Atual":"@Price",
-    "Dy,P/VPA": "($x, $y)",
+    "P/VPA,Dy": "($x, $y)",
 }
 
 fig.legend.location = "top_right"
