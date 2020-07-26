@@ -5,7 +5,9 @@ Em caso de problema ao executar o arquivo .py , deve-se instalar os módulos nec
 
 python3 -m pip install [package]
 
-Assim, o programa fará um plot do Dividend Yield x P/VPA :
+Assim, o programa fará um plot do Dividend Yield x P/VPA em HTML
+
+As informações adicionais são exibidas ao passar o cursor sobre cada fundo 
 
 Fonte : https://www.fundsexplorer.com.br/ranking
 
