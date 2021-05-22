@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import pandas as pd
 import requests 
 import numpy as np
@@ -22,9 +20,11 @@ table_str = str(table)
 df = pd.read_html(table_str)[0]
 new_dy = []
 for i in df['DividendYield']:
+    i = str(i)
     novo_dy = i.replace("%","").replace(",",".")
     new_dy.append(novo_dy)
 new_dy =list(np.float_(new_dy))
+new_dy = pd.Series(new_dy).fillna(0).tolist()
 
 setores = pd.unique(df.Setor)
 leg_cols = dict(zip(setores,Spectral10))
