@@ -23,5 +23,5 @@ Fonte : https://www.themoviedb.org/
 
 Site fonte de estudos : https://towardsdev.com/create-an-etl-pipeline-in-python-with-pandas-in-10-minutes-6be436483ec9
 
-
+![Revenue_by_title_tmdb](https://user-images.githubusercontent.com/48864868/152680672-f585e11a-6b09-4c10-bf3d-14c7627b3878.png)
 
